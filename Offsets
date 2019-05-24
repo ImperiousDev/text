@@ -1,0 +1,74 @@
+retcheck - 0x6792c0
+lua_getfield(3 args) - 0x810ed0 __stdcall
+lua_setfield - 0x812cb0 __cdecl
+lua_tolstring - 0x813330 __fastcall
+lua_settop - 0x8130f0 __fastcall
+lua_toboolean - 0x813270 __cdecl
+lua_pushvalue - 0x812310 __fastcall
+lua_pushnumber - 0x8121c0 __thiscall
+lua_pushstring - 0x812250 __stdcall
+lua_pcall - 0x811c70 __cdecl
+lua_pushnil - 0x812150 __cdecl
+lua_next - 0x811af0 __cdecl
+lua_pushboolean - 0x811d40 __cdecl
+lua_tonumber - 0x813460 __stdcall
+lua_pushcclosure - 0x811dc0 __stdcall
+luaD_precall - 0x809500 __cdecl
+lua_checkstack - 0x810950 __cdecl
+lua_createtable - 0x4e4a70 __cdecl
+lua_insert - 0x8114a0 __cdecl
+lua_newthread - 0x811940 __cdecl
+lua_newuserdata - 0x811a30 __cdecl
+lua_pushthread - 0x812290 __cdecl
+lua_rawgeti - 0x8125b0 __cdecl
+lua_rawseti - 0x812730 __cdecl
+lua_rawset - 0x812640 __cdecl
+lua_rawget - 0x812460 __cdecl
+lua_remove - 0x812860 __cdecl
+lua_setfenv - 0x812b90 __cdecl
+lua_setmetatable - 0x812e60 __cdecl
+lua_getmetatable - 0x8111a0 __cdecl
+lua_xmove - 0x813610 __cdecl
+ScriptContextVFTable - 0x7e382e //0x1CA904C
+lua_close - 0x4edd90 __thiscall
+lua_touserdata - 0x8135a0 __cdecl
+lua_call - 0x8108c0 __cdecl
+ScriptContextVFTable2 - 0x7e2556 //0x1CA904C
+lua_type - 0x8135d0 __cdecl
+luaS_newlstr - 0x80c4e0 __cdecl
+luaV_gettable - 0x810080 __cdecl
+luaV_settable - 0x810360 __cdecl
+lua_resume - 0x812a20 __cdecl
+index2adr - 0x808030 __fastcall
+luaL_ref - 0x80ba40 __cdecl
+lua_settable - 0x813060 __cdecl
+lua_gettable - 0x811350 __cdecl
+Arith - 0x80ced0 __cdecl
+luaH_new - 0x80a910 __cdecl
+lua_pushlightuserdata - 0x812030 __cdecl
+luaL_getmetafield - 0x80b5f0 __cdecl
+lua_yield - 0x8136d0 __cdecl
+spawn - 0x7f1a30 __cdecl
+luaL_unref - 0x80bd70 __cdecl
+lua_topointer - 0x8134f0 __cdecl
+lua_gettop - 0x8113d0 __cdecl
+lua_getupvalue - 0x8113f0 __cdecl
+lua_setupvalue - 0x8131a0 __cdecl
+lua_getfenv - 0x810de0 __cdecl
+print - 0x55c630 __cdecl
+doverb - 0xc517a0 __thiscall
+luaL_error - 0x80b3c0 __cdecl
+lua_setreadonly - 0x812f80 __cdecl
+luaF_newCclousure - 0x80a020 __cdecl
+sandboxthread - 0x7f17e0 __cdecl
+retflag1 - 0x22A4BF8
+retflag2 - 0x22A7FC4
+retfunc - 0x22A4BC8
+XORCONSTANT  - 0x1FDB520
+datamodel - 0x1C8235C
+Top - 32
+Base - 8
+Env - 64
+cdt - 48
+v52 = v39 + 56 * v51 + 164 + *(DWORD *)(v39 + 56 * v51 + 164);
+v52 = (int)&v39[14 * v51 + 41] + v39[14 * v51 + 41];
